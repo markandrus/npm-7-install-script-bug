@@ -1,0 +1,17 @@
+{
+  "name": "@mroberts/npm-7-install-script-bug-dependency",
+  "version": "1.0.0",
+  "description": "Demonstrates a potential issue with NPM 7, install scripts, and dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Andrus Roberts <markandrusroberts@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "install": "node script.js"
+  },
+  "dependencies": {
+    "node-pre-gyp": "0.17.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@markandrus/npm-7-install-script-bug",
+  "version": "1.0.0",
+  "description": "Demonstrates a potential issue with NPM 7, install scripts, and dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Andrus Roberts <markandrusroberts@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@markandrus/npm-7-install-script-bug-dependency": "*"
+  }
+}
